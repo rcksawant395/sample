@@ -1,1 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pdrdridokidz/public_html/test/
+    - /bin/cp * $DEPLOYPATH
+
+
 
